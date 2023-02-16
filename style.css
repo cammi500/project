@@ -1,0 +1,282 @@
+
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.col{
+    height: 100vh;
+}
+
+
+.left{
+    width: 30rem;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.center{
+    width: 100%;
+    background-color: #fafafa;
+    overflow-y: scroll;
+}
+.right{
+    width:30rem;
+    background-color:#ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+
+}
+.nav{
+    width: 100%;
+   padding: 10px;
+    background-color: #fff;
+    border-bottom:1px solid #292920;
+    position: sticky;
+    top: 0%;
+}
+.nav-main{
+display: flex;
+    }
+
+    .logo{
+        width: 30rem;
+    }
+    .search{
+        width: 100%;
+    }
+    .search input:focus{
+        outline: none;
+    }
+    .menu{
+        width: 30rem;
+    }
+
+    .d-flex{
+        display: flex;
+    }
+
+    
+    .justify-content-center{
+        justify-content: center;
+    }
+    .justify-content-start{
+        justify-content : start;
+    }
+    .align-item-center{
+        align-items: center;
+    }
+    .justify-content-space-between{
+        justify-content: space-between;
+    }
+    .justify-content-space-evenly{
+        justify-content: space-evenly;
+    }
+
+    /*flex direction*/
+    .flex-direction-column{
+        flex-direction: column;
+    }
+
+    .flex-grow-1{
+        flex-grow: 1;
+    }
+
+ 
+
+
+    .text-sec{
+        color: #d0d0d0;
+    }
+    .search-box{
+        width: 450px;
+        border: 1px solid ;
+        padding: 10px;
+        border-radius: 30px;
+
+    }
+    .search-box input{
+        width: 100%;
+        border: none;
+        padding-left: 20px;
+    }
+    .search-btn{
+        padding: 10px 20px;
+    border-radius: 200px;
+    border: none;
+    background: #fe4f41;
+    color: azure;
+
+}
+.menu-icon{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+/*
+left*/
+.w-100{
+    width: 100%;
+    
+}
+
+
+.left-img {
+width: 40%;
+    border-radius: 80%;
+    border: 5px solid  #d8e595;
+}
+    .text-center{
+        text-align: center;
+    }
+
+
+    /* story circle */
+    .story-img{
+        width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #d8e595;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    border: none;
+    padding: 10px;
+}
+.bg-transptent{
+    background: transparent;
+}
+    .rounded-pill{
+        border-radius: 200px;
+    }
+
+
+    /* post */
+    .post-img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+
+    }
+    .post-card{
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .post-card-img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .post-comment-box{
+        width: 100%;
+        border: 1px solid;
+        border-radius: 200px;
+    }
+    .post-comment-box input{
+        border: none;
+        background: transparent;
+    }
+    .post-comment-box input:focus{
+        outline: none;
+    }
+
+    .bg-white{
+        background-color:#fff;
+    }
+
+
+    /* left */
+    .trending-feeds{
+        column-count: 2;
+        column-gap: 10px;
+        
+     
+    }
+
+    .tf-img{
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+
+    .left-menu{
+        
+        list-style: none;
+    }
+    .fw{
+        font-weight: 900;
+    }
+    .left-list-menu{
+    padding-left: 35px;
+    border-left: 5px solid #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.left-list-menu.active{
+    border-color: #ed649d;
+    color: #ed649d;
+}
+
+/* margin padding */
+    .ms-1{
+        margin-left: 10px;
+    }
+    .me-1{
+        margin-right: 10px;
+    }
+    .me-2{
+        margin-right: 20px;
+    }
+    .mb-2{
+        margin-bottom: 20px;
+    }
+    .mb-1{
+        margin-bottom: 10px;
+    }
+    .mt-2{
+        margin-top: 20px;
+    }  
+
+    .mt-3{
+        margin-top: 30px;
+    }
+
+    .p-1{
+        padding: 10px;
+    }
+    .p-2{
+        padding: 20px;}
+    .px-2{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .px-5{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .px-6{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .px-9{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .px-7{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
